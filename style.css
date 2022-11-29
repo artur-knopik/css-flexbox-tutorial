@@ -21,22 +21,23 @@ body{
 
 .box{
     height: 100px;
-    width: 320px;
-
+    
+flex: 1 0 200px;
 }
 
 .one{
     background: yellowgreen;
-    flex-shrink: 1;
+    
+    
 }
 
 .two{
 
 background: green;
-flex-shrink: 2;
+
 }
 
 .three{
     background: blue;
-    flex-shrink: 6;
+   
 }
